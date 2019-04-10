@@ -1,0 +1,13 @@
+  .item {
+      color: green;
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  .item img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+  }

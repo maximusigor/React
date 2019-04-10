@@ -7,3 +7,8 @@
     color: #fff;
     text-decoration: none;
   }
+
+  .item.active {
+    color: red;
+    text-decoration: none;
+  } 
