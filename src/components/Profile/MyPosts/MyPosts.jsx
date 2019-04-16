@@ -11,8 +11,8 @@ const MyPosts = (props) => {
             New post
         </div>
             <div className={s.posts}>
-                <Post message="Hi, React! I am a new user" like="15"/>
-                <Post message="-Hi, user! Welcome in my world!" like="2"/>
+                <Post message="Hi, React! I am a new user" likesCount="1"/>
+                <Post message="-Hi, user! Welcome in my world!" likesCount="23"/>
                 {/* <Post />
                 <Post />
                 <Post />
