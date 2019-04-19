@@ -15,6 +15,10 @@ img {
     padding: 10px;
 }
 
+.dialogsItems a {
+    text-decoration: none;
+}
+
 .dialogsItems .active {
     color: aqua;
 }
@@ -22,6 +26,7 @@ img {
 .messages {
     padding: 10px;
 }
+
 
 .message {
 
