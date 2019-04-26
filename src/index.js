@@ -7,11 +7,11 @@ import {BrowserRouter} from 'react-router-dom';
 import state from './redux/state';
 import {addPost} from './redux/state';
 
-addPost('sin-dev.ru');
+//addPost('sin-dev.ru');
 
 ReactDOM.render(
     <BrowserRouter>
-        <App state={state} />
+        <App state={state} addPost={addPost} />
     </BrowserRouter>, document.getElementById('root'));
 
 
