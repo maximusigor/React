@@ -1,5 +1,5 @@
 /**
- * Created by Игорь on 24.04.2019.
+ * Created by Ihor on 24.04.2019.
  */
 
 let state ={
