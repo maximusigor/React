@@ -1,6 +1,7 @@
 /**
  * Created by Ihor on 24.04.2019.
  */
+import {rerenderEntiteTree} from '../render';
 
 let state ={
     profilePage: {
@@ -38,6 +39,7 @@ export let addPost = (postMessage) => {
         likesCount: 0
     };
     state.profilePage.posts.push(newPost);
+    rerenderEntiteTree(state);
 }
 
 export default state;
