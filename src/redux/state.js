@@ -8,7 +8,8 @@ let state ={
         posts : [
             {id: 1, message: 'Hi, React! I am a new user', likesCount: 1},
             {id: 2, message: '-Hi, user! Welcome in my world!', likesCount: 23}
-        ]
+        ],
+        newPostText: 'sin-dev.ru'
     },
 
     dialogsPage : {
@@ -40,6 +41,6 @@ export let addPost = (postMessage) => {
     };
     state.profilePage.posts.push(newPost);
     rerenderEntiteTree(state);
-}
+};
 
 export default state;
